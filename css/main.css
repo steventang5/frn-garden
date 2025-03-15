@@ -76,20 +76,42 @@ em {
 	color: #6AA84F;
 	font-family: 'Trebuchet MS';
 }
-
-#mint{
+.banner-text{
+	filter:brightness(100%) !important;
+}
+.banner{
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	padding-left: 1rem;
-
-	background-image: url(../images/pic01.jpg);
 	background-size: cover !important;
 	height: 12.5rem;
 	color:white;
 	opacity: 90%;
-	
 }
+#mint{
+	background-image: url(../images/pic01.jpg)
+}
+#peppermint{
+	background-image: url(banners/peppermint.jpg);
+	filter: brightness(90%);
+}
+#parsley{
+	background-image: url(../images/pic03.jpg);
+	filter:brightness(90%);
+}
+#basil{
+	background-image: url(banners/basil.jpg);
+	filter:brightness(90%);
+}
+#thyme{
+	background-image: url(banners/thyme.jpg);
+	background-size: contain;
+	background-position: 50% 60%;
+	filter:brightness(95%);
+}
+
+
 
 /* Basic */
 
