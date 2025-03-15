@@ -71,6 +71,26 @@ input, select, textarea {
 	appearance: none;
 }
 
+em {
+	font-style: normal !important;
+	color: #6AA84F;
+	font-family: 'Trebuchet MS';
+}
+
+#mint{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 1rem;
+
+	background-image: url(../images/pic01.jpg);
+	background-size: cover !important;
+	height: 12.5rem;
+	color:white;
+	opacity: 90%;
+	
+}
+
 /* Basic */
 
 	@-ms-viewport {
